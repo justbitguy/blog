@@ -7,6 +7,9 @@ title: Blog of justbitguy
 <ul>
 {% for post in site.posts %}
       {% if post.title == "*._test-*" %}
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　    　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+
+      hahaha
 {% endfor %}
 </ul>
